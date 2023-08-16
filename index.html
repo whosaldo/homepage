@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="script.js"></script>
+        <link href="index.css" rel="stylesheet">
+        <title>Aldo's Webpage</title>
+
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarText">
+              <ul class="navbar-nav mb-0 mb-lg-1">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html"> Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#abtme">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#hobbyz">Hobbys</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactme">Contact Me</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+
+    </head>
+    <body>
+
+        <div class="whosaldo">
+
+                <p>  Welcome to Aldo's Website! </p>
+                <p> Here u will find interesting facts about me</p>
+                <p> Just use the navbar or scroll bellow!</p>
+
+        </div>
+
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player id="gif" src="https://lottie.host/690a0997-313f-4ed7-83ed-3f84ab76e953/BXVrDXbuTc.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+
+        <div id="abtme"> </div>
+
+
+        <div class="abtme">
+
+            <h3>#abtme</h3>
+            <span id="test">
+              In a small corner of our world, there lived a boy who was fond of computers from an early age. Ever since he was just a child, his eyes shone in front of the bright screen. This boy's name was Aldo and he was always fascinated by the mystery behind technology.
+
+              From the age of 7, Aldo realized that the world of computers was where he wanted to spend his time. He would spend hours researching and discovering the secrets of programming. At first, he started learning simple programming languages, and then broadened his horizons by learning more advanced technologies.
+
+              His friends looked at him with admiration. However, the road to excellence was not without obstacles. Aldo spent sleepless nights trying to overcome errors and bugs in his codes. But each challenge made him stronger and wiser.
+
+              As time went on, Aldo's passion for computers and programming only grew. He chose to pursue a career in IT and went on to create innovative technology solutions that changed the lives of many people. He proved that with passion, dedication and solid knowledge, any dream in the technology field can become a reality.
+
+              </span>
+
+          </div>
+
+          <div class="hobbyz-container" id="hobbyz-container">
+            <div class="hobbyz" id="hobbyz">
+                <div class="test">
+                    <h3>#hobbyz</h3>
+                </div>
+            </div>
+        </div>
+
+
+      <div class="tabel">
+        <div class="row">
+          <div class="column" style="width: 30%; cursor: pointer;">
+            <span class="label" style="margin-top: 50%; "  onclick="prog()"> Programming </span>
+            <span class="label" onclick="bass()"> Bass Guitar </span>
+            <span class="label" onclick="coffee()"> Coffee </span>
+
+
+          </div>
+          <div class="column" style="border-left: 1px solid #eaeaea; " id="column2">
+            <span class="info">
+
+              <h3 id="infoh">  </h3>
+              <a id="infoa" syle="font-size= 10px"> </a>
+              <lottie-player id="gif2" src="https://lottie.host/ca075847-962c-42bf-ae0a-09dd7570bcf5/EgwVHix0rk.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay  ></lottie-player>
+              <lottie-player id="gif3" src="https://lottie.host/84375509-49d0-420e-bfb5-9ce13cc4fbde/Bmm2MXdSSh.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay  ></lottie-player>
+              <lottie-player id="gif4" src="https://lottie.host/515a60a3-f49a-424d-a826-c1ab4ebae78c/bz7QPs01xu.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay  ></lottie-player>
+              <lottie-player id="gif5" src="https://lottie.host/655e546e-bea0-419a-bef0-017c3a7b18a0/ynN7utYe4H.json" background="transparent"  speed="1"  style="width: 300px; height: 300px;" loop autoplay  ></lottie-player>
+
+            </span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="contactme" id="contactme">
+
+            <div class="one">
+                <h3 class="h3c">#contactme</h3>
+
+                <p class="legit"> Let's get in touch! </p>
+            <form action="https://formsubmit.co/calefa7@gmail.com" method="POST">
+            <span class="cme">Name</span>
+                  <input type="text" class="inp" name="name" required>
+            <span class="cme">E-mail</span>
+                  <input type="email" class="inp" name="email" required>
+            <span class="cme">Message</span>
+                  <textarea class="cmee" name="message" required rows="6"></textarea>
+
+          <div class="submit">
+            <button class="button-86" role="button" type="submit">Submit</button>
+          </div>
+
+                </div>
+              </form>
+            <div class="two">
+
+            </div>
+
+      </div>
+
+
+
+      <span class="da">Made with ❤️ by Aldo</span>
+    </body>
+</html>
+
+
+
+
